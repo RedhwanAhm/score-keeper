@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Score Keeper</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <img src="http://theyellowjacket.org/wp-content/uploads/2020/09/134-all-sports-balls.jpg" alt="">
+        <div class="label">
+            <h5>Score Keeper</h5>
+        </div>
+
+        <div class="scoreboard">
+
+            <div class="leaderboard">
+                <h1 class="score"><span id="pl1">0</span> to <span id="pl2">0</span></h1>
+                <p class="inst">Press the buttons below to keep score!</p>
+            </div>
+            
+            <div class="glim">
+                <span class="playto">Play up to: </span>
+                <select name="points" id="points">
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                    <option value="10">10</option>
+                    <option value="11">11</option>
+                    <option value="12">12</option>
+                    <option value="13">13</option>
+                    <option value="14">14</option>
+                    <option value="15">15</option>
+                </select>
+            </div>
+        </div>
+
+        <div class="buttons">
+            <button value="1" class="p1">+1 Player 1</button>
+            <button value="2" class="p2">+1 Player 2</button>
+            <button value="3" class="reset">Reset</button>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>

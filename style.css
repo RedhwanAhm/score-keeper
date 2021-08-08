@@ -1,0 +1,121 @@
+* { 
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    background-color: #f1f1f1;
+}
+
+.container {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 350px;
+    height: fit-content;
+    margin-top: 100px;
+    box-shadow: 0px 0px 5px 1px rgba(0,0,0,0.2);
+}
+
+.label {
+    display: flex;
+    justify-content: center;
+    box-sizing: border-box;
+    padding: 10px 5px;
+    border: 1px solid lightgray;
+    width: inherit;
+    background-color: white;
+}
+
+.scoreboard {
+    width: inherit;
+    text-align: left;
+    box-sizing: border-box;
+    border: 1px solid lightgray;
+    padding: 15px;
+    background-color: white;
+}
+
+.glim {
+    padding: 5px 0px;
+}
+
+.leaderboard {
+    margin-bottom: 10px;
+}
+
+.score {
+    margin-bottom: 3px;
+}
+
+.buttons {
+    width: 350px;
+    display: flex;
+}
+
+.buttons button {
+    text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
+    color: white;
+    font-size: 15px;
+    padding: 10px 15px;
+    transition: all 50ms;
+}
+
+.buttons .p1 {
+    border: none;
+    background-color: rgb(189, 81, 81);
+    width: 37.5%;
+}
+
+.buttons .p2 {
+    border: none;
+    background-color: rgb(81, 140, 189);
+    width: 37.5%;
+}
+
+.buttons .reset {
+    border: none;
+    background-color: rgb(105, 105, 105);
+    width: 25%;
+}
+
+.playto {
+    margin-right: 3px;
+}
+
+.points {
+    width: 20px;
+}
+
+.inst {
+    font-size: 0.85rem;
+}
+
+img {
+    width: 350px;
+}
+
+.buttons button:hover {
+    opacity: 90%;
+}
+
+.buttons button:active {
+    box-shadow: inset 0px 0px 9px 7px rgba(0,0,0,0.54);
+    font-size: 14px;
+    transition: 15ms;
+}
+
+@media only screen and (min-width: 768px) {
+    .container, .buttons, img {
+        width: 500px;
+    }
+}
+
